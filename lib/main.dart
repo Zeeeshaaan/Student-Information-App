@@ -11,6 +11,7 @@ class StudentInfoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Student Info App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -49,6 +50,7 @@ class _MainScreenState extends State<MainScreen> {
         onTap: _onItemTapped,
         selectedItemColor: Colors.blueAccent,
         unselectedItemColor: Colors.grey,
+        backgroundColor: Colors.black,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),

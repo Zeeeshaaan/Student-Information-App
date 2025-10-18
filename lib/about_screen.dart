@@ -21,7 +21,7 @@ class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("About"), centerTitle: true),
+      appBar: AppBar(title: Text("About"), centerTitle: true, backgroundColor: Colors.blue,),
       body: Center(
         child: AnimatedOpacity(
           opacity: _visible ? 1.0 : 0.0,

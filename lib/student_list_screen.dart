@@ -29,7 +29,7 @@ class _StudentListScreenState extends State<StudentListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Students"), centerTitle: true),
+      appBar: AppBar(title: Text("Students"), centerTitle: true, backgroundColor: Colors.blue,),
       body: SafeArea(
         child: ListView.builder(
           itemCount: students.length,
